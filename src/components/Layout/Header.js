@@ -11,7 +11,11 @@ const Header = (props) => {
       </header>
 
       <div>
-        <img src={mealsImage} alt="A table of full of delicious food!" />
+        <img
+          src={mealsImage}
+          alt="A Table of full of delicious food!"
+          className={`${classes.mainimage}`}
+        />
       </div>
     </Fragment>
   );
